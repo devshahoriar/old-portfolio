@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+.logo{
+  color: black;
+  font-style: Poppins;
+  font-weight: 800;
+}
+.nav-item a{
+  font-family: Poppins;
+  color: black;
+  transition: .5s color;
+}
+
+.nav-item a:hover{
+  color: #E8505B;
+}
+
+.landing{
+  background-color: #FEF6F6;
+  width: 100%;
+}
+
+.startSite{
+  width: 100%;
+  background-color: #FEF6F6;
+}
+
+.imgHade img {
+  margin: 65px 0;
+}
+
+.titleText{
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.titleText h2{
+  color: #E8505B;
+  font-family: Poppins;
+  font-weight: 600;
+  margin: 17px 0px;
+  font-size: 45px;
+}
+
+.titleText h1{
+  font-family: Poppins;
+}
+.titleText p{
+  width: 390px;
+  opacity: .6;
+}
+
+.titleText button {
+  border: none;
+  outline: none;
+  background: #E8505B;
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-family: Poppins;
+  color: white;
+  margin-top: 30px;
+}
+
+.inSpredsecText{
+  text-align: center;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.inSpredsecText h1{
+  background-color: #FDEEEF;
+  width: 211px;
+  padding: 5px 0px;
+  font-size: 32px;
+  color: black;
+}
+.inSpredsecText p{
+  font-size: 25px;
+}
+.inSpredsecText span{
+  color: #E8505B;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  text-align: center;
+  width: 30%;
+  font-family: Poppins;
+  font-weight: 300;
+  border: 4px #E8505B;
+  border-bottom-style: solid;
+  background: linear-gradient(180deg, #FFC0C5 0%, #FFFFFF 100%);
+}
+.card img{
+  margin: auto;
+  margin-top: 60px;
+}
+.card h1{
+  font-size: 23px;
+  margin: 24px 0px;
+}
+
+.card p{
+  padding: 0px 15px;
+  opacity: .7;
+  margin-bottom: 45px;
+}
+
+
+.inAboutCorona{
+  text-align: center;
+}
+.aboutText{
+  margin-bottom: 50px;
+}
+.aboutText h1{
+  width: 350px;
+}
+
+.infoGrafick{
+  display: flex;
+  font-family: Poppins;
+}
+
+.inFoRow{
+  display: flex;
+  padding: 65px 18px;
+}
+ 
+.inFoRow img{
+  width: 100px;
+}
+
+.infoText h1 {
+  margin-bottom: 45px;
+}
+
+.inFoRow h1{
+  font-size: 20px;
+}
+.inFoRow p{
+  opacity: 0.7;
+}
+.textRight{
+  text-align: right;
+}
+.textLeft{
+  text-align: left;
+}
+
+.imgDiv img{
+  width:50px;
+}
+
+.letastReport h1{
+  width: 365px;
+  margin-bottom: 10px;
+}
+
+.brinfIfrem{
+  width: 100%;
+}
+
+.brinfIfrem iframe{
+  width: 100%;
+  height: 700px;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 3px solid #E8505B;
+  border-radius: 4px;
+}
+
+.inPreventation{
+  width: 100%;
+  background: linear-gradient(180deg, #FFC0C5 0%, #FFFFFF 100%);
+}
+
+.preventation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blockText h3 {
+  background: #F6BEC3;
+  width: 200px;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.likeBodyText {
+  padding: 0px 16px;
+  font-family: Poppins;
+}
+
+.likeBodyText h1 {
+  font-size: 34px;
+  margin: 20px 0px;
+}
+
+.likeBodyText span{
+  color: #E8505B;
+}
+.likeBodyText p{
+  opacity: .7;
+}
+.likeBodyText ul{
+  list-style: none;
+  margin-top: 30px;
+}
+.likeBodyText ul li{
+  margin: 10px 10px;
+}
+.likeBodyText ul img{
+  width: 40px;
+}
+
+.inUpFutter{
+ width: 100%;
+ background-color:#FDEEEF;
+ position: relative;
+ text-align: center;
+ font-family: Poppins;
+ padding-bottom: 30px;
+}
+.inUpFutter img{
+  position: absolute;
+  filter: grayscale(100%);
+  z-index: 1;
+}
+
+.inUpFutter #img1{
+  top: 30px;
+  left: 100px;
+}
+
+.inUpFutter #img2{
+  top: 148px;
+  left: 359px;
+  width: 20px;
+}
+
+.inUpFutter #img3{
+  right: 30px;
+  bottom: 60px;
+  width: 46px;
+}
+
+.inUpFutter #img4{
+  bottom: 10px;
+  right: 29%;
+  width: 60px;
+}
+.inUpFutter h3{
+  color: #E8505B;
+  z-index: 100;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+.inUpFutter h1{
+  font-size: 60px;
+}
+
+.inUpFutter p{
+  opacity: .7;
+}
+
+
+
+.inUpFutter button {
+    background-color: #E8505B;
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    
+}
+footer{
+  padding: 40px 0px;
+}
+
+footer .logo{
+  font-size: 20px;
+}
+
+footer img{
+  width: 45px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact a{
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  opacity: .7;
+}
+
+.mess {
+  border: none;
+  border-bottom: 1px dotted black;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.messbtn{
+  background: #e8505b;
+color: wheat;
+padding: 1px 40px;
+font-size: 20px;
+border: none;
+margin-top: 5px;
+border-radius: 25px;
+}
+
+@media (max-width: 991px) {
+
+  .startSite {
+    overflow-x: hidden;
+}
+  
+    .titleText {
+      margin-top: 61px;
+      margin-left: 0px;
+    }
+
+    .imgHade img {
+      margin: 13px 0;
+      width: 340px;
+    }
+
+    .titleText button {
+      padding: 6px 9px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-size: 12px;
+  }
+
+  .inAboutCorona {
+    text-align: center;
+    position: relative;
+}
+
+.seconfRow {
+  position: absolute;
+  z-index: -2;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.4;
+}
+
+.aboutText {
+  margin-bottom: 0px;
+}
+
+.infoText h1 {
+  margin-bottom: 20px;
+}
+
+.inFoRow {
+  display: flex;
+  padding: 38px 18px;
+}
+
+.imgPrevent img {
+  width: 100%;
+  margin-top: 20px;
+}
+.imgPrevent {
+  width: 770px;
+}
+
+.likeBodyText h1 {
+  font-size: 24px;
+  margin: 13px 0px;
+}
+
+.blockText h3 {
+  width: 136px;
+  padding: 4px 6px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 19px;
+}
+
+.likeBodyText p {
+  opacity: .7;
+  font-size: 13px;
+}
+
+.likeBodyText ul img {
+  width: 29px;
+}
+.inUpFutter h3 {
+  margin-top: 17px;
+  padding-top: 26px;
+}
+
+.inUpFutter h1 {
+  font-size: 50px;
+}
+
+.inUpFutter button {
+  padding: 7px 11px;
+  font-size: 12px;
+}
+
+.inUpFutter {
+  padding-bottom: 20px;
+}
+
+}
+
+@media (max-width: 766px) {
+  .titleText {
+    margin-top: 30px;
+}
+.titleText h2 {
+  margin: 9px 0px;
+  font-size: 39px;
+}
+
+.titleText h1 {
+  font-size: 26px;
+}
+
+.titleText p {
+  width: 301px;
+  font-size: 13px
+}
+
+.inSpredsecText h1 {
+  width: 160px;
+  font-size: 22px;
+}
+
+.inSpredsecText p {
+  font-size: 18px;
+}
+
+.card img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  font-size: 15px;
+  margin: 5px 0px;
+}
+
+.card p {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.infoGrafick{
+  flex-direction: column;
+}
+
+.inSpredsecText h1 {
+  font-size: 13px;
+}
+.inFoRow {
+  padding: 4px 14px;
+  flex-direction: column;
+}
+
+.infoGrafick .left {
+  flex-direction: column-reverse;
+}
+
+.textRight , .textLeft{
+  text-align: center;
+}
+
+.inSpredsecText h3 {
+  font-size: 20px;
+}
+
+.inPreventation{
+  position: relative;
+}
+
+.textPrevent {
+  z-index: 111;
+}
+
+.imgPrevent {
+  width: 40vw;
+  position: absolute;
+  opacity: .3;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.imgPrevent img {
+  width: 100%;
+}
+
+.likeBodyText {
+  padding-bottom: 20px;
+}
+
+.inUpFutter h3 {
+  margin-top: 0px;
+  padding-top: 6px;
+}
+
+.inUpFutter #img1 {
+  top: 6px;
+  left: 45px;
+  z-index: 0;
+  width: 31px;
+}
+.inUpFutter h1 {
+  font-size: 36px;
+}
+
+.inUpFutter #img2 {
+  opacity: 0;
+}
+
+footer .logo {
+  font-size: 15px;
+}
+
+footer img {
+  width: 35px;
+}
+
+.contact a {
+  font-size: 12px;
+}
+
+.subscribe {
+  overflow: hidden;
+  text-align: center;
+}
+
+.mess {
+  padding: 0px;
+  font-size: 12px;
+}
+
+.messbtn {
+  padding: 1px 11px;
+  font-size: 11px;
+  border: none;
+  margin-top: 2px;
+}
+.inUpFutter #img4 {
+  bottom: 10px;
+  right: 23%;
+  width: 37px;
+}
+
+}
+
+@media (max-width: 528px){
+  .cards {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.titleText{
+  margin-left: 65px;
+}
+
+.imgHade{
+  display: none;
+}
+}
