@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="root" id="contai">
+
+    
+    <div class="container" >
+      <div class="main">
+        
+        <div class="model">
+          
+          <img width="100%" src="model.jpg" alt="">
+          
+        </div>
+        <div class="text">
+          <div class="intext">
+            <h3 id="testtt" class="texx">Hi there !</h3>
+            <h1 id="typr" class="sty"> </h1>
+            <div class="paragraph">
+              <p>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+            </div>
+
+            <button class="contact" id="con">Contact</button>
+            <div class="connect">
+              <div class="fb">
+                <a target="_blank" href="https://facebook.com/shuvovai.dev"><img src="facebook.svg" alt=""></a>
+              </div>
+              <div class="mess">
+                <a target="_blank" href="https://www.messenger.com/t/100028630451221"><img src="messenger.svg" alt=""></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="reContact zero" id="mobileCon">
+
+
+    <div class="back" id="back">
+      <button class="backButon" id="backbu">
+        <img src="black.svg" alt="">
+      </button>
+      
+    </div>
+    <div class="refb">
+      <a target="_blank" href="https://facebook.com/shuvovai.dev"><img width="100%" src="facebook.svg" alt=""></a>
+    </div>
+    <div class="remess">
+      <a target="_blank" href="https://www.messenger.com/t/100028630451221"><img width="100%" src="messenger.svg" alt=""></a>
+    </div>
+
+  
+  
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
+
+
+
+<script>
+
+  function again(){
+    console.log('typewrite has complete');
+    $('#typr').text(" ")
+
+    $('#typr')
+    .on('typewriteComplete', function() {
+      again();
+  })
+    .typewrite({
+        actions: [
+            {type: 'I am Suvo.'},
+            {delay: 200},
+            {select: {from: 6, to: 10}},
+            {delay: 100},
+            {remove: {num: 4, type: 'whole'}},
+            {type: 'huvo.'},
+            {delay: 1600},
+            {remove: {num: 6, type: 'stepped'}},
+            {delay: 600},
+            {type: 'web developer.'},
+            {delay: 300},
+            {select: {from: 5, to: 19}},
+            {delay: 200},
+            {remove: {num: 14, type: 'whole'}},
+            {type: 'android developer.'},
+            {delay: 600},
+        ]
+    });
+
+
+  }
+
+
+  $(document).ready(function(){
+    $('#typr')
+    .on('typewriteComplete', function() {
+      again();
+  })
+    .typewrite({
+        actions: [
+            {type: 'I am Suvo.'},
+            {delay: 500},
+            {select: {from: 6, to: 10}},
+            {delay: 400},
+            {remove: {num: 4, type: 'whole'}},
+            {type: 'huvo.'},
+            {delay: 1600},
+            {remove: {num: 6, type: 'stepped'}},
+            {delay: 600},
+            {type: 'web developer.'},
+            {delay: 300},
+            {select: {from: 5, to: 19}},
+            {delay: 200},
+            {remove: {num: 14, type: 'whole'}},
+            {type: 'android developer.'},
+            {delay: 600},
+        ]
+    });
+});
+
+
+
+</script>
+
+<script src="app.js"></script>
+
+
+</html>

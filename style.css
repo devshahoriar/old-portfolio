@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.texx{
+  color: #ffd600;
+}
+
+body{
+  font-family: Poppins;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.blinkingCursor{
+  color: #f2f2f2;
+}
+
+.root {
+  background-image: url(ss.svg);
+  background-position: -480px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  transition: filter 300ms, transform 300ms;
+}
+
+.reContact{
+  opacity: 0;
+  z-index: -100;
+  pointer-events: none;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  height: 100%;
+}
+.contact{
+  display: none;
+}
+
+.blour{
+  filter: blur(20px) saturate(160%);
+  transform: scale(1.22)
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  min-height: 619px;
+}
+
+
+
+.model {
+  width: 60%;
+  margin: 20px;
+  position: relative;
+  z-index: 999999;
+}
+
+.model::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  background-color: #73737326;
+  backdrop-filter: blur(26px) saturate(150%);
+  -webkit-backdrop-filter:blur(26px) saturate(150%);
+}
+
+.text {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.intext {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.text h3 {
+  font-size: 65px;
+  font-weight: 200;
+}
+
+.text h1{
+  font-size: 60px;
+}
+
+.text h1 span{
+  font-weight: 800;
+}
+
+.text p{
+  opacity: .7;
+}
+
+.text a {
+  height: 45px;
+  width: 45px;
+  display: block;
+  margin-right: 25px;
+  transition: opacity 1s;
+}
+
+.text a:hover{
+  opacity: .5;
+}
+
+.connect{
+  display: flex;
+  margin-top: 20px;
+  flex-basis: 20px;
+}
+
+@media only screen and (max-width: 1155px) {
+  .model {
+    width: 600px;
+  }
+
+  .text h3 {
+    font-size: 5vw
+  }
+
+  .text h1 {
+    font-size: 6vw;
+  }
+
+  .root {
+    background-position: -47vw 0px;
+  }
+
+
+  
+  
+}
+
+.zero{
+  opacity: 0;
+  z-index: -9999;
+  pointer-events: none;
+}
+
+.opOne{
+  opacity: 1;
+  z-index: 9999;
+  pointer-events: all;
+}
+
+
+@media only screen and (max-width: 926px) {
+  .main{
+    flex-direction: column;
+  }
+
+  .model {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 200px;
+}
+
+.text {
+  height: initial;
+  width: 87%;
+  text-align: center;
+}
+.ye{
+  color: #ffd600;
+}
+
+
+
+
+.main {
+  justify-content: initial;
+}
+
+.connect {
+  opacity: 0;
+  pointer-events: none;
+  z-index: -999;
+}
+
+.contact {
+  display: initial;
+  padding: 8px 25px;
+  font-size: 17px;
+  background: #ffd600;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #f2f2f2;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ 
+
+  .model::after {
+    content: "";
+    opacity: 0;
+    display: none;
+  }
+
+  .reContact {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transition: opacity .5s;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.refb, .remess{
+  width: 50px;
+  margin: 10px;
+}
+
+.back {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.backButon{
+  background:none;
+  outline: none;
+  border: none;
+}
+
+
+
+}
+
+
+
+
