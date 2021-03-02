@@ -1,4 +1,2 @@
 # shuvovai.github.io :sweat_smile:
-```
-```
-#### This is my portfolio.
+#### [My portfolio](http://shuvovai.github.io) :ok_person:
